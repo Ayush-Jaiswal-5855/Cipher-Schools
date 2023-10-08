@@ -1,6 +1,7 @@
 #include<iostream>
 using namespace std;
 int main(){
+    //1st code
     int i,j,k;
     i=0;
     j=0;
@@ -10,4 +11,12 @@ int main(){
     cout<<i<<" "<<j<" "<<k<<endl;
     k=++i;
     cout<<i<<" "<<j<" "<<k<<endl;
+    return 0;
+
+    //2nd code
+    int i;
+    for(i=1;i<101;i++){
+        cout<<i<<" ";
+    }
+    return 0;
 }
