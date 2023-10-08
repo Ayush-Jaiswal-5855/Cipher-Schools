@@ -30,5 +30,20 @@ int main(){
     }
 
     //3rd code
+    int a,b,c;
+    cout<<"Give three integers as input : a,b,c"<<endl;
+    cin>>a>>b>>c;
+    if(a>b && c>d){
+        cout<<"haha";
+    }
+    else if(a>b && c<d){
+        cout<<"hehe";
+    }
+    else{
+        cout<<"huhu";
+    }
+
+    //4th code
+    
   return 0;
 }
