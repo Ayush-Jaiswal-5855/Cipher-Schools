@@ -1,6 +1,7 @@
 #include<iostream>
 using namespace std;
 int main(){
+    
     //1st code
     float a,b;
     cout<<"Give 2 floating point numbers as input"<<endl;
@@ -11,6 +12,7 @@ int main(){
     else{
         cout<<"The condition is false ";
     }
+    return 0;
 
     //2nd code
     int marks;
@@ -28,6 +30,7 @@ int main(){
     else{
         cout<<"Pass";
     }
+    return 0;
 
     //3rd code
     int a,b,c;
@@ -42,6 +45,7 @@ int main(){
     else{
         cout<<"huhu";
     }
+    return 0;
 
     //4th code
     int a;
@@ -59,5 +63,5 @@ int main(){
         default:
             cout<<"default will be always printed";
     }
-  return 0;
+    return 0;
 }
