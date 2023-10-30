@@ -42,7 +42,6 @@ int binarysearch(int *arr, int l, int r, int value)
 
 int main()
 {
-    // int arr[7] = {1,3,10,2,4,7,5};
     int arr[7] = {1, 2, 3, 4, 5, 7, 10};
     int size = 7;
     simplesearch(arr, 0, 6, 13);
